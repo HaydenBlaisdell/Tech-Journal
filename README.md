@@ -7,3 +7,16 @@ reservations: reservations can be used as alternate ways to static addrerssing
 DHCP Relay: DHCP Relay must be configured if the DHCP server is not connected to all segments 
 IP address pool: range of addresses that are availble to DHCP clients
 
+Linux File Permission Lab 
+
+Steps to add user to group:
+ls -ld /marketing/
+chgrp marketing /marketing/
+chmod g+w /marketing/
+ls -ld
+su -user 
+echo "user file" > /marketing/newproducts.txt
+ls -l /marketing/newproducts.txt to confirm who has privliges
+
+
+
